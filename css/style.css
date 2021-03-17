@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&display=swap');
 
 :root {
-  --primary-color: #9b8ef8;
+  --primary-color: #c4a2fc;
   --secondary-color: #f7f3f0;
   --accent-color: #d6ffa1;
 }
@@ -207,6 +207,14 @@ span {
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
+.services .service h2 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-top: 20px;
+  color: #1b206e;
+}
+
 /* RESPONSIVE STYLES */
 
 @media (max-width: 1068px) {
@@ -229,5 +237,17 @@ span {
 
   .navigation ul li a {
     font-size: 2rem;
+  }
+
+  .services {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* MOBILE STYLES */
+
+@media (max-width:768px) {
+  .services {
+    grid-template-columns: 1fr;
   }
 }
