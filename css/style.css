@@ -404,6 +404,21 @@ span {
     border-radius: 25px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   }
+
+  .contact {
+    flex-direction: column;
+  }
+
+  .contact-form {
+    width: 100%;
+    padding: 30px 30px 20px;
+  }
+
+  .contact-info {
+    width: 100%;
+    margin-top: 20px;
+    padding: 30px 30px 20px;
+  }
 }
 
 /* MOBILE STYLES */
@@ -411,5 +426,14 @@ span {
 @media (max-width: 768px) {
   .services {
     grid-template-columns: 1fr;
+  }
+  .contact-form .row {
+    flex-direction: column;
+  }
+
+  .contact-form .input50, 
+  .contact-form .input100 {
+    width: 100%;
+    margin: 0;
   }
 }
