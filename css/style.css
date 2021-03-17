@@ -27,10 +27,28 @@ p {
   font-weight: 300;
 }
 
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  background:#9B8EF8;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 30px;
+  margin: 20px 0;
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .15rem;
+}
+
+.btn:hover {
+  transform: scale(.98);
+}
+
 /* SECTION STYLES */
 section {
   display: flex;
-  height: 100vh;
+  height: 70vh;
   align-items: center;
   padding: 100px;
 }
