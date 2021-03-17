@@ -197,5 +197,8 @@ span {
     max-width: 90%;
   }
 
-  
+  .navigation ul li a {
+    font-size: 2rem;
+  }
+
 }
