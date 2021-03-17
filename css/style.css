@@ -197,6 +197,16 @@ span {
   max-width: 100px;
 }
 
+.services .service {
+  padding: 30px;
+
+}
+
+.services .service:hover {
+  border-radius: 40px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
 /* RESPONSIVE STYLES */
 
 @media (max-width: 1068px) {
@@ -220,5 +230,4 @@ span {
   .navigation ul li a {
     font-size: 2rem;
   }
-
 }
