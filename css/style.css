@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&family=Roboto&family=Roboto+Slab:wght@200;300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: Roboto;
+  color: #111;
+}
+
