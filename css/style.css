@@ -199,12 +199,11 @@ span {
 
 .services .service {
   padding: 30px;
-
 }
 
 .services .service:hover {
   border-radius: 40px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .services .service h2 {
@@ -213,6 +212,12 @@ span {
   text-transform: capitalize;
   margin-top: 20px;
   color: #1b206e;
+}
+
+/* WORK PAGE STYLES */
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* RESPONSIVE STYLES */
@@ -246,7 +251,7 @@ span {
 
 /* MOBILE STYLES */
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .services {
     grid-template-columns: 1fr;
   }
