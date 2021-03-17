@@ -218,7 +218,8 @@ span {
 .portfolio {
   display: flex;
   flex-wrap: wrap;
-  margin-top:20px;
+  margin-top: 20px;
+  justify-content: center;
 }
 
 .portfolio .item {
@@ -247,6 +248,7 @@ span {
   opacity: 1;
   border-radius: 25px;
   opacity: 0;
+  transition: 0.5s;
 }
 
 .portfolio .item:hover .action {
@@ -254,16 +256,16 @@ span {
 }
 
 .portfolio .item .action a {
-display: inline-block;
-color: var(--secondary-color);
-text-decoration:none;
-/* border: 1px solid var(--accent-color); */
-background: var(--primary-color);
-border-radius: 25px;
-padding: 10px 20px;
-text-transform: uppercase;
-font-weight: 700;
-letter-spacing: 0.1rem;
+  display: inline-block;
+  color: var(--secondary-color);
+  text-decoration: none;
+  /* border: 1px solid var(--accent-color); */
+  background: var(--primary-color);
+  border-radius: 25px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
 }
 
 /* RESPONSIVE STYLES */
@@ -290,8 +292,10 @@ letter-spacing: 0.1rem;
     font-size: 2rem;
   }
 
-  .services {
+  .services .service {
     grid-template-columns: repeat(2, 1fr);
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   }
 }
 
