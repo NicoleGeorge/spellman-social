@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&display=swap');
 
+:root {
+  --primary-color: #9B8EF8;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -30,12 +34,13 @@ p {
 .btn {
   cursor: pointer;
   display: inline-block;
-  background:#9B8EF8;
+  background: var(--primary-color);
   color: #fff;
   text-decoration: none;
   padding: 10px 30px;
   margin: 20px 0;
   border-radius: 25px;
+  border: 0;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: .15rem;
@@ -68,9 +73,27 @@ span {
   text-transform: lowercase;
   font-style: italic;
 }
+
+
+/* MENU STYLES */
 .navigation {
   display: none;
 }
+
+.toggle {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  background: var(--primary-color) url(../images/menu.png);
+  z-index: 20;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
 
 /* HOMEPAGE CONTENT SECTIONS */
 .hero-content {
