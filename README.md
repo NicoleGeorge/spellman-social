@@ -8,8 +8,11 @@ A modern social media agency website
 * This version 1.0 of their website is the starting point for their custom WordPress theme.
 
 
-#### Website Mockup Showcase: </br>
-<a href="#" rel="nofollow"><img height="800" src="" style="max-width:100%;" target="_blank"></a>
+#### Website Mockup Showcase 1: </br>
+<a href="#" rel="nofollow"><img height="800" src="https://github.com/NicoleGeorge/spellman-social/blob/main/screenshots/mockup-1.png" style="max-width:100%;" target="_blank"></a>
+
+#### Website Mockup Showcase 1: </br>
+<a href="#" rel="nofollow"><img height="800" src="https://github.com/NicoleGeorge/spellman-social/blob/main/screenshots/mockup-2.png" style="max-width:100%;" target="_blank"></a>
 
 ## Project Specificaitions
 - Create a modern yet minimal website for a social media first digital developmant company; 
