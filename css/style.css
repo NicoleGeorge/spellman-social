@@ -294,6 +294,49 @@ span {
   display: flex;
 }
 
+.contact-form .input50 {
+  width: 50%;
+  margin: 0 10px;
+}
+
+.contact-form .input100 {
+  width: 100%;
+  margin: 0 10px;
+}
+
+.contact-form .row input,
+.contact-form .row textarea {
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #111;
+  background: transparent;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 10px 0;
+  resize: none;
+}
+
+.contact-form .row textarea {
+  height: 10rem;
+}
+
+.contact-form .row input[type='submit'] {
+background-color: var(--primary-color);
+color: var(--secondary-color);
+border-radius: 25px;
+border: none;
+margin: 0;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-weight: 700;
+cursor: pointer;
+}
+
+
+
 /* RESPONSIVE STYLES */
 @media (max-width: 1068px) {
   .hero-image {
