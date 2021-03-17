@@ -280,9 +280,10 @@ span {
 
 .contact-form {
   position: relative;
-  background: #f6ece7a7;
+  background: #f4eeeb;
   width: calc(100% - 400px);
   padding: 60px 40px 20px;
+  border-radius: 25px;
 }
 
 .contact-form form {
@@ -324,18 +325,56 @@ span {
 }
 
 .contact-form .row input[type='submit'] {
-background-color: var(--primary-color);
-color: var(--secondary-color);
-border-radius: 25px;
-border: none;
-margin: 0;
-text-transform: uppercase;
-letter-spacing: 2px;
-font-weight: 700;
-cursor: pointer;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border-radius: 25px;
+  border: none;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  font-weight: 700;
+  cursor: pointer;
 }
 
+.contact-info {
+  width: 350px;
+  background: #f4eeeb;
+  padding: 60px 40px 20px;
+  border-radius: 25px;
+}
 
+.contact-info .info-box {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.contact-info .info-box a,
+.contact-info .info-box p {
+  text-decoration: none;
+  color: #111;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.contact-info .info-box a:hover {
+  color: var(--primary-color);
+}
+
+.contact-info .info-box .contact-icon {
+  width: 20px;
+  margin-right: 40px;
+}
+
+.contact-info .info-box .details h4 {
+  text-transform: uppercase;
+  color: #111;
+  font-family: Roboto;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
 
 /* RESPONSIVE STYLES */
 @media (max-width: 1068px) {
