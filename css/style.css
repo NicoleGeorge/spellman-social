@@ -268,8 +268,33 @@ span {
   letter-spacing: 0.1rem;
 }
 
-/* RESPONSIVE STYLES */
+/* CONTACT PAGE STYLES */
+.contact {
+  position: relative;
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 
+.contact-form {
+  position: relative;
+  background: #f6ece7a7;
+  width: calc(100% - 400px);
+  padding: 60px 40px 20px;
+}
+
+.contact-form form {
+  width: 100%;
+}
+
+.contact-form .row {
+  width: 100%;
+  display: flex;
+}
+
+/* RESPONSIVE STYLES */
 @media (max-width: 1068px) {
   .hero-image {
     display: none;
